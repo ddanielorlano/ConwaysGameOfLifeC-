@@ -133,7 +133,7 @@ namespace ConwaysGameOfLife
         {
             var grid = GetGridFromBtns();
             if(Game != null)
-            {
+            { 
                 var nextGrid = Game.Update(grid, _sizeX, _sizeY);
                 UpdateBtnGrid(nextGrid);
             }
