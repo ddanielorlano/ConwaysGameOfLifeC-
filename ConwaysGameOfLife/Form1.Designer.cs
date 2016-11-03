@@ -31,9 +31,9 @@
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.startBtn = new System.Windows.Forms.Button();
-            this.stopBtn = new System.Windows.Forms.Button();
             this.clearBtn = new System.Windows.Forms.Button();
+            this.stopBtn = new System.Windows.Forms.Button();
+            this.startBtn = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -42,7 +42,7 @@
             // 
             this.flowLayoutPanel1.Location = new System.Drawing.Point(6, 9);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(688, 339);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(136, 77);
             this.flowLayoutPanel1.TabIndex = 0;
             // 
             // groupBox1
@@ -65,15 +65,14 @@
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
             // 
-            // startBtn
+            // clearBtn
             // 
-            this.startBtn.Location = new System.Drawing.Point(457, 19);
-            this.startBtn.Name = "startBtn";
-            this.startBtn.Size = new System.Drawing.Size(75, 30);
-            this.startBtn.TabIndex = 0;
-            this.startBtn.Text = "Start";
-            this.startBtn.UseVisualStyleBackColor = true;
-            this.startBtn.Click += new System.EventHandler(this.startBtn_Click);
+            this.clearBtn.Location = new System.Drawing.Point(619, 19);
+            this.clearBtn.Name = "clearBtn";
+            this.clearBtn.Size = new System.Drawing.Size(75, 30);
+            this.clearBtn.TabIndex = 2;
+            this.clearBtn.Text = "Clear";
+            this.clearBtn.UseVisualStyleBackColor = true;
             // 
             // stopBtn
             // 
@@ -83,15 +82,17 @@
             this.stopBtn.TabIndex = 1;
             this.stopBtn.Text = "Stop";
             this.stopBtn.UseVisualStyleBackColor = true;
+            this.stopBtn.Click += new System.EventHandler(this.stopBtn_Click);
             // 
-            // clearBtn
+            // startBtn
             // 
-            this.clearBtn.Location = new System.Drawing.Point(619, 19);
-            this.clearBtn.Name = "clearBtn";
-            this.clearBtn.Size = new System.Drawing.Size(75, 30);
-            this.clearBtn.TabIndex = 2;
-            this.clearBtn.Text = "Clear";
-            this.clearBtn.UseVisualStyleBackColor = true;
+            this.startBtn.Location = new System.Drawing.Point(457, 19);
+            this.startBtn.Name = "startBtn";
+            this.startBtn.Size = new System.Drawing.Size(75, 30);
+            this.startBtn.TabIndex = 0;
+            this.startBtn.Text = "Start";
+            this.startBtn.UseVisualStyleBackColor = true;
+            this.startBtn.Click += new System.EventHandler(this.startBtn_Click);
             // 
             // Form1
             // 
